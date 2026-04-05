@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Divs & spans">
+        <title>Divs & Spans</title>
+    </head>
+    <body>
+        <h3 style="color: red;">Container tags</h3>
+        <p>A container in HTML is set of tags used to wraps other HTML elements.It's good to wrap multiple tags in an overall containers.<br>The main containers are- Divs and Spans</p>
+        <p>HTML has 2 basic <b>main</b> ways to display elements:- 
+            <ul>
+                <li>Blocks</li>
+                <li>Inline</li>
+            </ul>
+            <p>
+                <dl>
+                    <dt>Blocks</dt>
+                    <dd>
+                        - They are HTML elements which take entire width of the page.<br>
+                        <p>Paragraph 1</p>
+                        <p>Paragraph 2</p><br>
+                        Here we have not used <code>&ltbr&gt</code> and still we are getting these both paragraphs in different lines (even if so much space is available),
+                         this means they occupy a complete block, and hence are called  "<i>block display</i>" or "<b>Div containers</b>"
+                    </dd>
+                    
+                    
+                    <dt>Inline</dt>
+                    <dd>
+                        They take only as much space as required<br>
+                        example:- <a href="https://www.youtube.com">YouTube</a>
+                        <a href="https://www.google.com" target="_blank">Google</a><br><br>
+                        Here we have not written any <code>&ltbr&gt</code> and hence they both appear together and hence are called  "<i>inline display</i>" or "<b>Spans containers</b>"
+                    </dd>
+                    <dt><h4>NOTE:-</h4></dt>
+                    <dd>to write less than (&lt;) and greater than sign (&gt;), we can use &amp;lt; and &amp;gt; respectively</dd>
+                </dl>
+            </p>
+        </p>
+        <p>
+            <h3>Examples:-</h3>
+            <h4 style="background-color: lightgray;">Code</h4>
+            <div style="background-color: black;">
+                <code style="color: white;">
+                    &lt;div&gt;
+                        div1
+                    &lt;/div&gt;<br>
+                    &lt;div&gt;
+                        div2
+                    &lt;/div&gt;
+                </code>
+            </div>
+            <p>
+                <h4>
+                    Output:-
+                </h4>
+                <div>div1</div>
+                <div>div2</div>
+            </p>
+
+            <p style="background-color: black;">
+                <code style="color: white;">
+                    &lt;span&gt;
+                        span1
+                    &lt;/span&gt;<br>
+                    &lt;span&gt;
+                        span2
+                    &lt;/span&gt;
+                </code>
+            </p>
+             <p>
+                <h4>
+                    Output:-
+                </h4>
+                <span>span1</span>
+                <span>span2</span>
+            </p>
+
+        </p>
+    </body>
+</html>
